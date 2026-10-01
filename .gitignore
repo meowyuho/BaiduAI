@@ -1,0 +1,36 @@
+# ---- Visual Studio / .NET ----
+.vs/
+[Bb]in/
+[Oo]bj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.wsuo
+*.mpack
+
+# 本机编译产物
+*.exe
+*.pdb
+*.dll
+!packages/**/*.dll
+
+# ---- NuGet ----
+packages/
+*.nupkg
+!packages/repositories.config
+
+# ---- 日志与运行时产物 ----
+log/
+logs/
+*.log
+PersonImg/
+
+# ---- 密钥等本地配置 ----
+# 若把真实密钥写进了 app.config，可改为忽略该文件并保留一份 app.config.template
+# app.config
+
+# ---- 操作系统 / 编辑器 ----
+Thumbs.db
+Desktop.ini
+*.swp
